@@ -44,5 +44,6 @@ class Garage {
             return "Sorry we're full"
         }
         this.vehicles.push(vehicle);
+        return "Vehicle added!"
     }
 }
